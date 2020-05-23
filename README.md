@@ -1,6 +1,4 @@
-# Please Start the Magic Mirror via the Start-Here.sh shell script.
-
-![MagicMirror²: The open source modular smart mirror platform. ](.github/header.png)
+![MagicMirror²: The open source modular smart mirror platform. ](https://raw.githubusercontent.com/YeetCodes/MagicMirror/development-build/.github/header.png)
 [![Node.js CI](https://github.com/YeetCodes/MagicMirror/workflows/Node.js%20CI/badge.svg?branch=development-build)](https://github.com/YeetCodes/MagicMirror/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://choosealicense.com/licenses/mit)
 
@@ -8,33 +6,13 @@
 
 MagicMirror² focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
-## Documentation
-
-For the full documentation including **[installation instructions](https://docs.magicmirror.builders/getting-started/installation.html)**, please visit our dedicated documentation website: [https://docs.magicmirror.builders](https://docs.magicmirror.builders).
-
-## Links
-- Website: [https://magicmirror.builders](https://magicmirror.builders)
-- Documentation: [https://docs.magicmirror.builders](https://docs.magicmirror.builders)
-- Forum: [https://forum.magicmirror.builders](https://forum.magicmirror.builders)
-- Discord: [https://discord.gg/J5BAtvx](https://discord.gg/J5BAtvx)
-- Blog: [https://michaelteeuw.nl/tagged/magicmirror](https://michaelteeuw.nl/tagged/magicmirror)
-- Donations: [https://magicmirror.builders/#donate](https://magicmirror.builders/#donate)
-
-## Contributing Guidelines
-
-Contributions of all kinds are welcome, not only in the form of code but also with regards bug reports and documentation. For the full contribution guidelines, check out: [https://docs.magicmirror.builders/getting-started/contributing.html](https://docs.magicmirror.builders/getting-started/contributing.html)
-
-
-## Enjoying MagicMirror? Consider a donation!
-
-MagicMirror² is opensource and free. That doesn't mean we don't need any money.
-
-Please consider a donation to help us cover the ongoing costs like webservers and email services.
-If we receive enough donations we might even be able to free up some working hours and spend some extra time improving the MagicMirror² core.
-
-To donate, please follow [this](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G5D8E9MR5DTD2&source=url) link.
-
-<p align="center">
-<br>
-	<a href="https://forum.magicmirror.builders/topic/728/magicmirror-is-voted-number-1-in-the-magpi-top-50"><img src="https://magicmirror.builders/img/magpi-best-watermark-custom.png" width="150" alt="MagPi Top 50"></a>
-</p>
+## Installation Instructions
+- Go to the Github repository for our Magic Mirror fork: [https://github.com/YeetCodes/MagicMirror](https://github.com/YeetCodes/MagicMirror) <br><img src="https://raw.githubusercontent.com/YeetCodes/MMDocumentation/Initial/img/01.png" width="50%">
+- Go to Releases to see all releases: [https://github.com/YeetCodes/MagicMirror/releases](https://github.com/YeetCodes/MagicMirror/releases) <br><img src="https://raw.githubusercontent.com/YeetCodes/MMDocumentation/Initial/img/02.png" width="50%">
+- Download and extract the latest or your desired release: <br><img src="https://raw.githubusercontent.com/YeetCodes/MMDocumentation/Initial/img/03.png" width="50%">
+- Enter the extracted subdirectory and run the command <br> ```chmod +x Start-Here.sh && ./Start-Here.sh``` <br><img src="https://raw.githubusercontent.com/YeetCodes/MMDocumentation/Initial/img/04.png" width="50%">
+- This will run the installation script which will check for the installation of the `npm` package and install it if necessary. <br><img src="https://raw.githubusercontent.com/YeetCodes/MMDocumentation/Initial/img/05.png" width="50%">
+- Afterwards, the script will run `npm install` to install the Magic Mirror application and `npm start` to start it. <br><img src="https://raw.githubusercontent.com/YeetCodes/MMDocumentation/Initial/img/06.png" width="50%">
+- Use `Ctrl + Q` to exit the MagicMirror application.
+- After the initial installation, the only command necessary for running the Magic Mirror application is `npm start` from within the directory.
+  - Updating the release or application files will require a new installation.
